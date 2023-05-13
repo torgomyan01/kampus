@@ -56,9 +56,11 @@ function Dashboard() {
                 <li>УрГУПС</li>
               </ul>
               <div className="mt-5 d-flex justify-content-end">
-                <Button variant="contained" className="btn-red">
-                  Подробнее
-                </Button>
+                <Link to={SITE_URL.LIST_UNIVERSITIES}>
+                  <Button variant="contained" className="btn-red">
+                    Подробнее
+                  </Button>
+                </Link>
               </div>
             </div>
           </Fade>

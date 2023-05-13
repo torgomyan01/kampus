@@ -57,13 +57,6 @@ font-family: 'Montserrat Alternates', sans-serif;
     font-size: 12px;
   }
 }
-
-@media (max-width: 438px) {
-  html {
-    font-size: 11px;
-  }
-}
-
 .trans {
   transition: 0.3s;
 }
@@ -138,6 +131,10 @@ body {
   line-height: 24px;
   letter-spacing: 0.002em;
   color: #FFFFFF;
+}
+
+.def-checkbox {
+  color: #F52D30 !important;
 }
 
 /*# sourceMappingURL=index.css.map */

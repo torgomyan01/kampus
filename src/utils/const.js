@@ -5,4 +5,5 @@ export const SITE_URL = {
   MYREZUME: "/myrezume",
   MYWORKS: "myworks",
   ANALYTIC_USERS: "/analytic_users",
+  LIST_UNIVERSITIES: "/list-universities",
 };

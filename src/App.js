@@ -6,6 +6,7 @@ import { SITE_URL } from "./utils/const";
 import AnalyticUsers from "./pages/analytic_users/analytic-users";
 import Programfonds from "./pages/programfonds/programfonds";
 import MyRezume from "./pages/myrezume/myrezume";
+import TableVuz from "./pages/table-vuz/table-vuz";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path={SITE_URL.PROGRAMFONDS} element={<Programfonds />} />
         <Route path={SITE_URL.MYREZUME} element={<MyRezume />} />
         <Route path={SITE_URL.ANALYTIC_USERS} element={<AnalyticUsers />} />
+        <Route path={SITE_URL.LIST_UNIVERSITIES} element={<TableVuz />} />
       </Routes>
     </Router>
   );
