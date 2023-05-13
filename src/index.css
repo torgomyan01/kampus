@@ -57,6 +57,13 @@ font-family: 'Montserrat Alternates', sans-serif;
     font-size: 12px;
   }
 }
+
+@media (max-width: 438px) {
+  html {
+    font-size: 11px;
+  }
+}
+
 .trans {
   transition: 0.3s;
 }
