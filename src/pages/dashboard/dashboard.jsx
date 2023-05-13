@@ -71,7 +71,7 @@ function Dashboard() {
             <div className="def-content">
               <h3 className="content-title">Программы фонда</h3>
               <div className="mt-5 d-flex justify-content-end">
-                <Link to={SITE_URL.PROGRAMFONDS}>
+                <Link to={SITE_URL.PROGRAM_FONDS}>
                   <Button variant="contained" className="btn-red">
                     Подробнее
                   </Button>

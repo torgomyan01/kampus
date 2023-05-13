@@ -1,0 +1,70 @@
+
+.Works{
+
+  .WorksContent {
+    padding: 1.5625rem 3.125rem !important;
+    margin-bottom: 1.25rem !important;
+
+    h2 {
+      font-weight: 600;
+      font-size: 1.5rem;
+      line-height: 96.4%;
+      color: #000000;
+    }
+
+    .WorksTitle {
+      font-weight: 600;
+      font-size: 1.25rem;
+      line-height: 96.4%;
+      color: #000000;
+      margin-bottom: 0.625rem;
+    }
+
+    .WorksText {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 0.875rem;
+      line-height: 96.4%;
+      color: rgba(0, 0, 0, 0.5);
+      margin-bottom: 1.875rem;
+    }
+
+
+
+    .WorksParentBox{
+
+      h4 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.875rem;
+        line-height: 96.4%;
+        color: #000000;
+        margin-bottom: 0.625rem;
+      }
+
+      .WorksBox{
+        display: flex;
+        margin-bottom: 2.5rem;
+        align-items: center;
+
+        .gray{
+          margin: 0 1.25rem;
+          height: 1.5625rem;
+          border-right: 1px solid rgba(0, 0, 0, 0.5);
+        }
+
+        span {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 1rem;
+          line-height: 96.4%;
+          color: #000000;
+        }
+      }
+
+
+    }
+
+  }
+
+}

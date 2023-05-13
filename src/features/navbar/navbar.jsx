@@ -3,6 +3,7 @@ import "./navbar.css";
 import Logo from "../../assets/images/logo-site.svg";
 import Dropdown from "react-bootstrap/Dropdown";
 import { Link } from "react-router-dom";
+import { SITE_URL } from "../../utils/const";
 
 function Navbar() {
   return (
@@ -22,9 +23,8 @@ function Navbar() {
           </Dropdown.Toggle>
 
           <Dropdown.Menu>
-            <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-            <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+            <Dropdown.Item href={SITE_URL.MY_RESUME}>Мои резюме</Dropdown.Item>
+            <Dropdown.Item href={SITE_URL.MY_WORKS}>Вакансии</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
       </div>
