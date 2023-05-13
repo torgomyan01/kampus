@@ -1,8 +1,18 @@
 import React from "react";
-import MainTemplate from "../../features/main-template/main-template";
+import "./login.css";
+import { Button } from "@mui/material";
 
 function Login() {
-  return <MainTemplate>Hello</MainTemplate>;
+  return (
+    <div className="d-flex justify-content-center align-items-center w-100">
+      <div className="def-content">
+        <h3 className="content-title">fgdfgfg</h3>
+        <Button variant="contained" className="btn-red">
+          Подробнее
+        </Button>
+      </div>
+    </div>
+  );
 }
 
 export default Login;

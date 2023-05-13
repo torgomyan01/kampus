@@ -1,16 +1,15 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Dashboard from "./pages/dashboard/dashboard";
-import Navbar from "./features/navbar/navbar";
 import Login from "./pages/login/login";
+import { SITE_URL } from "./utils/const";
 
 function App() {
   return (
     <Router>
-      <Navbar />
       <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path={SITE_URL.HOME} element={<Login />} />
+        <Route path={SITE_URL.DASHBOARD} element={<Dashboard />} />
       </Routes>
     </Router>
   );

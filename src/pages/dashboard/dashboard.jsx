@@ -3,6 +3,7 @@ import "./dashboard.css";
 import MainTemplate from "../../features/main-template/main-template";
 import { Button } from "@mui/material";
 import diagram from "../../assets/images/diagram.svg";
+import { Link } from "react-router-dom";
 
 function Dashboard() {
   return (
@@ -20,9 +21,11 @@ function Dashboard() {
               <img src={diagram} alt="diagram" className="def-image" />
             </div>
             <div className="mt-5 d-flex justify-content-end">
-              <Button variant="contained" className="btn-red">
-                Подробнее
-              </Button>
+              <Link to="/">
+                <Button variant="contained" className="btn-red">
+                  Подробнее
+                </Button>
+              </Link>
             </div>
           </div>
 
