@@ -1,11 +1,11 @@
 import React from "react";
 import Navbar from "../navbar/navbar";
 
-function MainTemplate({ children }) {
+function MainTemplate({ children, className = "" }) {
   return (
     <>
       <Navbar />
-      <div className="container MainTemplate">{children}</div>
+      <div className={`container MainTemplate ${className}`}>{children}</div>
     </>
   );
 }

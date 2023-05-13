@@ -4,4 +4,5 @@ export const SITE_URL = {
   PROGRAMFONDS: "/programfonds",
   MYREZUME: "/myrezume",
   MYWORKS: "myworks",
+  ANALYTIC_USERS: "/analytic_users",
 };
