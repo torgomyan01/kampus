@@ -13,6 +13,7 @@ import alfabank from "../../assets/images/alfabank.png";
 import drive from "../../assets/images/drive.png";
 import { Link } from "react-router-dom";
 import { RandomKey } from "../../utils/helpers";
+import { SITE_URL } from "../../utils/const";
 
 const companyLogos = [urfLogo, fitService, easi, haumen, ucsb, alfabank, drive];
 
@@ -93,9 +94,11 @@ function Dashboard() {
               </div>
             </div>
             <div className="mt-5 d-flex justify-content-end">
-              <Button variant="contained" className="btn-red">
-                Подробнее
-              </Button>
+              <Link to={SITE_URL.ANALYTIC_USERS}>
+                <Button variant="contained" className="btn-red">
+                  Подробнее
+                </Button>
+              </Link>
             </div>
           </div>
           {/*Анализ посещения*/}
