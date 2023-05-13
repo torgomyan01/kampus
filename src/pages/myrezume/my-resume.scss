@@ -1,7 +1,7 @@
 
-.MyRezume {
+.MyResume {
 
-  .MyRezumeContent {
+  .MyResumeContent {
     padding: 1.5625rem 3.125rem !important;
     margin-bottom: 1.25rem !important;
 
@@ -12,7 +12,7 @@
       color: #000000;
     }
 
-    .MyRezumeTitle {
+    .MyResumeTitle {
       font-weight: 600;
       font-size: 1.25rem;
       line-height: 96.4%;
@@ -20,7 +20,7 @@
       margin-bottom: 0.625rem;
     }
 
-    .MyRezumeText {
+    .MyResumeText {
       font-style: normal;
       font-weight: 500;
       font-size: 0.875rem;
@@ -29,7 +29,7 @@
       margin-bottom: 1.875rem;
     }
 
-    .MyRezumeParentBox {
+    .MyResumeParentBox {
 
       h4 {
         font-style: normal;
@@ -40,7 +40,7 @@
         margin-bottom: 0.625rem;
       }
 
-      .MyRezumeBox {
+      .MyResumeBox {
         display: flex;
         margin-bottom: 2.5rem;
         align-items: center;
@@ -48,7 +48,7 @@
         .gray {
           margin: 0 1.25rem;
           height: 1.5625rem;
-          border-right: 1px solid rgba(0, 0, 0, 0.5);
+          border-right: 0.0625rem solid rgba(0, 0, 0, 0.5);
         }
 
         span {

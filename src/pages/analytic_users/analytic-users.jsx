@@ -110,7 +110,7 @@ function AnalyticUsers() {
   };
 
   return (
-    <MainTemplate className="AnalyticUsers">
+    <MainTemplate className="AnalyticUsers Animations">
       <div className="def-content def-content-title">
         <h3 className="content-title">Анализ посещения</h3>
       </div>
@@ -131,7 +131,7 @@ function AnalyticUsers() {
           </Fade>
 
           <Fade duration={1000}>
-            <div className="def-content mt-4">
+            <div className="def-content content2 mt-4">
               <h3 className="content-title">Просмотры страниц</h3>
               <div className="user-register mt-5">
                 <i className="fa-solid fa-caret-up green" />

@@ -1,11 +1,18 @@
 @import "../../assets/helper";
 
 .AnalyticUsers{
+  margin-bottom: 12.5rem !important;
   .def-content-title{
     border-radius: 1.25rem;
     padding-top: 1.5625rem;
     padding-bottom: 1.5625rem;
   }
+
+  .content2{
+    margin-top: 2rem !important;
+  }
+
+
   .fa-solid{
     display: inline-block;
     transform: translateY(5px);
@@ -51,11 +58,11 @@
     font-size: 3.5rem;
     line-height: 3.875rem;
     color: #000000;
-    padding-right: 10px;
+    padding-right: 0.625rem;
     p{
       &:nth-of-type(2){
-        margin-top: -20px;
-        margin-bottom: -10px;
+        margin-top: -1.25rem;
+        margin-bottom: -0.625rem;
       }
     }
   }

@@ -131,9 +131,11 @@ function Dashboard() {
               <h3 className="content-title mb-5">Рейтинг участников</h3>
 
               <div className="mt-5 d-flex justify-content-end">
-                <Button variant="contained" className="btn-red">
-                  Подробнее
-                </Button>
+                <Link to={SITE_URL.RATING_USERS}>
+                  <Button variant="contained" className="btn-red">
+                    Подробнее
+                  </Button>
+                </Link>
               </div>
             </div>
           </Fade>

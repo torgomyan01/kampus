@@ -1,21 +1,21 @@
-.MyRezume .MyRezumeContent {
+.MyResume .MyResumeContent {
   padding: 1.5625rem 3.125rem !important;
   margin-bottom: 1.25rem !important;
 }
-.MyRezume .MyRezumeContent h2 {
+.MyResume .MyResumeContent h2 {
   font-weight: 600;
   font-size: 1.5rem;
   line-height: 96.4%;
   color: #000000;
 }
-.MyRezume .MyRezumeContent .MyRezumeTitle {
+.MyResume .MyResumeContent .MyResumeTitle {
   font-weight: 600;
   font-size: 1.25rem;
   line-height: 96.4%;
   color: #000000;
   margin-bottom: 0.625rem;
 }
-.MyRezume .MyRezumeContent .MyRezumeText {
+.MyResume .MyResumeContent .MyResumeText {
   font-style: normal;
   font-weight: 500;
   font-size: 0.875rem;
@@ -23,7 +23,7 @@
   color: rgba(0, 0, 0, 0.5);
   margin-bottom: 1.875rem;
 }
-.MyRezume .MyRezumeContent .MyRezumeParentBox h4 {
+.MyResume .MyResumeContent .MyResumeParentBox h4 {
   font-style: normal;
   font-weight: 500;
   font-size: 0.875rem;
@@ -31,17 +31,17 @@
   color: #000000;
   margin-bottom: 0.625rem;
 }
-.MyRezume .MyRezumeContent .MyRezumeParentBox .MyRezumeBox {
+.MyResume .MyResumeContent .MyResumeParentBox .MyResumeBox {
   display: flex;
   margin-bottom: 2.5rem;
   align-items: center;
 }
-.MyRezume .MyRezumeContent .MyRezumeParentBox .MyRezumeBox .gray {
+.MyResume .MyResumeContent .MyResumeParentBox .MyResumeBox .gray {
   margin: 0 1.25rem;
   height: 1.5625rem;
-  border-right: 1px solid rgba(0, 0, 0, 0.5);
+  border-right: 0.0625rem solid rgba(0, 0, 0, 0.5);
 }
-.MyRezume .MyRezumeContent .MyRezumeParentBox .MyRezumeBox span {
+.MyResume .MyResumeContent .MyResumeParentBox .MyResumeBox span {
   font-style: normal;
   font-weight: 500;
   font-size: 1rem;
@@ -49,4 +49,4 @@
   color: #000000;
 }
 
-/*# sourceMappingURL=myrezume.css.map */
+/*# sourceMappingURL=my-resume.css.map */

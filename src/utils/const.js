@@ -6,6 +6,6 @@ export const SITE_URL = {
   MY_WORKS: "my-works",
   ANALYTIC_USERS: "/analytic_users",
   RATING_USERS: "/rating_users",
-  NOTFOUND: "/notfound404",
+  NOTFOUND: "/*",
   LIST_UNIVERSITIES: "/list-universities",
 };
