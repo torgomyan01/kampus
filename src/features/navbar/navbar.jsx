@@ -7,7 +7,7 @@ import { SITE_URL } from "../../utils/const";
 
 function Navbar() {
   return (
-    <nav>
+    <div className="nav">
       <div className="container h-100 d-flex justify-content-between align-items-center">
         <Link to="/">
           <img src={Logo} alt="Logo SIte" className="logo-site" />
@@ -28,7 +28,7 @@ function Navbar() {
           </Dropdown.Menu>
         </Dropdown>
       </div>
-    </nav>
+    </div>
   );
 }
 

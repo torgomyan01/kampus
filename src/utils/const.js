@@ -7,4 +7,5 @@ export const SITE_URL = {
   ANALYTIC_USERS: "/analytic_users",
   RATING_USERS: "/rating_users",
   NOTFOUND: "/notfound404",
+  LIST_UNIVERSITIES: "/list-universities",
 };

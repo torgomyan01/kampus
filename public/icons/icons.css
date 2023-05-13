@@ -20,6 +20,10 @@
     content: "\f0d8"
 }
 
+.fa-ellipsis-vertical:before {
+    content: "\f142"
+}
+
 
 /*---------------------------------*/
 

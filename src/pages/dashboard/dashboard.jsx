@@ -33,7 +33,12 @@ function Dashboard() {
               </p>
 
               <div className="mt-5">
-                <img src={diagram} alt="diagram" className="def-image" />
+                <img
+                  src={diagram}
+                  alt="diagram"
+                  className="def-image"
+                  height={226}
+                />
               </div>
               <div className="mt-5 d-flex justify-content-end">
                 <Button variant="contained" className="btn-red">
@@ -56,9 +61,11 @@ function Dashboard() {
                 <li>УрГУПС</li>
               </ul>
               <div className="mt-5 d-flex justify-content-end">
-                <Button variant="contained" className="btn-red">
-                  Подробнее
-                </Button>
+                <Link to={SITE_URL.LIST_UNIVERSITIES}>
+                  <Button variant="contained" className="btn-red">
+                    Подробнее
+                  </Button>
+                </Link>
               </div>
             </div>
           </Fade>
