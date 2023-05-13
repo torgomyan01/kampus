@@ -1,0 +1,77 @@
+.Parentlogin {
+  min-height: 100vh;
+  background: white;
+}
+
+.Login {
+  width: 100%;
+  max-width: 28.75rem;
+  min-height: 21.875rem;
+  box-shadow: 0 10px 48px -15px rgba(0, 0, 0, 0.25);
+}
+@media (max-width: 375px) {
+  .Login {
+    margin: 0 0.9375rem;
+  }
+}
+.Login h3 {
+  font-size: 2.5rem;
+}
+.Login .LoginTitle {
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+  margin-top: 1.375rem;
+  font-weight: 500;
+  color: #000;
+}
+.Login .LoginTitle a {
+  color: #F52D30;
+}
+.Login .LoginInput {
+  max-width: 20.125rem;
+  margin: 0 auto;
+}
+.Login .LoginInput input {
+  padding: 0.625rem 0;
+  border-radius: 0.625rem;
+  width: 100%;
+  border: 3px solid rgba(0, 0, 0, 0.3);
+}
+.Login .LoginInput input::placeholder {
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #C4C4C4;
+}
+
+.image {
+  position: absolute;
+  top: 3.125rem;
+  left: 9.375rem;
+}
+@media (max-width: 576px) {
+  .image {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.LoginBtn {
+  margin-top: 2.5rem !important;
+  border: 0.1875rem solid #F52D30 !important;
+  border-radius: 0.625rem !important;
+  background: white !important;
+  font-weight: 500 !important;
+  font-size: 1.125rem !important;
+  line-height: 96.4% !important;
+  color: #F52D30 !important;
+  padding: 0.875rem 1.875rem !important;
+  text-align: center !important;
+}
+.LoginBtn:hover {
+  color: white !important;
+  background: #F52D30 !important;
+}
+
+/*# sourceMappingURL=login.css.map */
