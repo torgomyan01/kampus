@@ -37,9 +37,8 @@ function Dashboard() {
               </div>
               <div className="mt-5 d-flex justify-content-end">
                 <Button variant="contained" className="btn-red">
-                    Подробнее
-                  </Button>
-
+                  Подробнее
+                </Button>
               </div>
             </div>
           </Fade>
@@ -73,10 +72,10 @@ function Dashboard() {
               <h3 className="content-title">Программы фонда</h3>
               <div className="mt-5 d-flex justify-content-end">
                 <Link to={SITE_URL.PROGRAMFONDS}>
-                <Button variant="contained" className="btn-red">
-                  Подробнее
-                </Button>
-              </Link>
+                  <Button variant="contained" className="btn-red">
+                    Подробнее
+                  </Button>
+                </Link>
               </div>
             </div>
           </Fade>

@@ -7,9 +7,9 @@ import Fade from "react-reveal/Fade";
 function Programfonds() {
   return (
     <MainTemplate>
-      <Fade>
-        <div className="ProgramFonds">
-          <div className="row">
+      <div className="ProgramFonds">
+        <div className="row">
+          <Fade duration={500}>
             <div className="def-content rowBox rowRight col-6 col-sm-6 col-md-4 col-lg-4 col-xl-6">
               <h3 className="ContentTitle">Стипендиальная программа фонда</h3>
               <p className="ContentText">
@@ -21,6 +21,9 @@ function Programfonds() {
                 </Button>
               </div>
             </div>
+          </Fade>
+
+          <Fade duration={1000}>
             <div className="def-content rowBox  col-6 col-sm-6 col-md-4 col-lg-4 col-xl-6">
               <h3 className="ContentTitle">Льготное кредитование</h3>
               <p className="ContentText">Льготное кредитование на обучение.</p>
@@ -30,6 +33,9 @@ function Programfonds() {
                 </Button>
               </div>
             </div>
+          </Fade>
+
+          <Fade duration={1200}>
             <div className="def-content rowBox rowRight col-6 col-sm-6 col-md-4 col-lg-4  col-xl-6">
               <h3 className="ContentTitle">Программа фонда 3</h3>
               <p className="ContentText">Краткое описание*</p>
@@ -39,6 +45,9 @@ function Programfonds() {
                 </Button>
               </div>
             </div>
+          </Fade>
+
+          <Fade duration={1800}>
             <div className="def-content rowBox col-6 col-sm-6 col-md-4 col-lg-4  col-xl-6">
               <h3 className="ContentTitle">Программа фонда 4</h3>
               <p className="ContentText">Краткое описание*</p>
@@ -48,6 +57,9 @@ function Programfonds() {
                 </Button>
               </div>
             </div>
+          </Fade>
+
+          <Fade duration={1500}>
             <div className="def-content rowBox rowRight col-6 col-sm-6 col-md-4 col-lg-4 col-xl-6">
               <h3 className="ContentTitle">Программа фонда 5</h3>
               <p className="ContentText">Краткое описание*</p>
@@ -57,6 +69,9 @@ function Programfonds() {
                 </Button>
               </div>
             </div>
+          </Fade>
+
+          <Fade duration={1500}>
             <div className="def-content rowBox col-6 col-sm-6 col-md-4 col-lg-4  col-xl-6">
               <h3 className="ContentTitle">Программа фонда 6</h3>
               <p className="ContentText">Краткое описание*</p>
@@ -66,9 +81,9 @@ function Programfonds() {
                 </Button>
               </div>
             </div>
-          </div>
+          </Fade>
         </div>
-      </Fade>
+      </div>
     </MainTemplate>
   );
 }
