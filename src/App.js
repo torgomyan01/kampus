@@ -12,11 +12,6 @@ function App() {
         <Route path="/" element={<Login />} />
         <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
-      {/*<Router>*/}
-      {/*  <Routes>*/}
-      {/*    <Route exac path="/" element={<Dashboard />} />*/}
-      {/*  </Routes>*/}
-      {/*</Router>*/}
     </Router>
   );
 }

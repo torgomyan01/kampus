@@ -1,0 +1,12 @@
+.vuz{
+    margin-top: 40px;
+    list-style: auto;
+}
+
+.vuz li{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 96.4%;
+    color: #000000;
+    margin-bottom: 19px;
+}
