@@ -5,9 +5,7 @@ function MainTemplate({ children }) {
   return (
     <>
       <Navbar />
-      <div className="container" style={{ marginTop: 174 }}>
-        {children}
-      </div>
+      <div className="container MainTemplate">{children}</div>
     </>
   );
 }

@@ -1,12 +1,88 @@
-.vuz{
-    margin-top: 40px;
-    list-style: auto;
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
 }
 
-.vuz li{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 96.4%;
-    color: #000000;
-    margin-bottom: 19px;
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
 }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #F52D30;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #be2022;
+}
+
+.vuz {
+  margin-top: 2.5rem;
+  list-style: auto;
+}
+.vuz li {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 96.4%;
+  color: #000000;
+  margin-bottom: 1.1875rem;
+}
+
+.analytic-text {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  color: #333333;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.analytic-text .rounded {
+  width: 12px;
+  height: 12px;
+  margin-right: 8px;
+  display: inline-block;
+}
+
+.company-item {
+  width: 132px;
+  height: 132px;
+  background: #FFFFFF;
+  box-shadow: 5px 6px 24px rgba(0, 0, 0, 0.12);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  transform: scale(1);
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+.company-item:last-child {
+  margin-right: 0;
+}
+.company-item:hover {
+  box-shadow: 5px 6px 30px rgba(0, 0, 0, 0.2);
+  transform: scale(1.03);
+}
+@media (max-width: 425px) {
+  .company-item {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .rating-users {
+    min-height: 17.9375rem;
+  }
+}
+
+/*# sourceMappingURL=dashboard.css.map */

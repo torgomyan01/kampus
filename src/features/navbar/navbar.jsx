@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar.css";
-import Logo from "../../assets/images/logo-site.png";
+import Logo from "../../assets/images/logo-site.svg";
 import Dropdown from "react-bootstrap/Dropdown";
 import { Link } from "react-router-dom";
 
@@ -9,7 +9,7 @@ function Navbar() {
     <nav>
       <div className="container h-100 d-flex justify-content-between align-items-center">
         <Link to="/">
-          <img src={Logo} alt="Logo SIte" />
+          <img src={Logo} alt="Logo SIte" className="logo-site" />
         </Link>
 
         <Dropdown>
