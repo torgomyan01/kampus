@@ -1,16 +1,16 @@
 .TitleName {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0.25px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.015625rem;
   color: #00072B;
 }
 
 .Title2 {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
   color: #00072B;
 }
 
@@ -48,9 +48,28 @@ b {
   display: flex;
   flex-direction: column;
 }
-.head2 span {
+.head2 .content1 {
+  display: flex;
+  margin-left: 4.8125rem;
+}
+.head2 .content1 .icons {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.625rem;
+}
+.head2 .content1 .icons .fa-caret-down {
+  margin-top: -0.3125rem;
+}
+.head2 .content1 .icons i {
+  color: #B0BAC9;
+}
+.head2 .content2 span {
   text-align: start;
-  margin-left: 37px;
+  margin-left: -2.2rem;
+}
+.head2 .content2 i {
+  margin-left: 1.25rem;
+  color: #DFE2E9;
 }
 
 /*# sourceMappingURL=ratingusers.css.map */

@@ -43,8 +43,17 @@ function RatingUsers() {
                   </TableCell>
                   <TableCell align="center" className="flex-wrap">
                     <div className="head2 mt-4">
-                      <b>Сортировка</b>
-                      <span className="">Все</span>
+                      <div className="content1">
+                        <b>Сортировка</b>
+                        <div className="icons">
+                          <i className="fa-solid fa-caret-up"></i>
+                          <i className="fa-solid fa-caret-down"></i>
+                        </div>
+                      </div>
+                      <div className="content2">
+                        <span>Все</span>
+                        <i className="fa-regular fa-chevron-down c-black" />
+                      </div>
                     </div>
                   </TableCell>
                   <TableCell align="right">
