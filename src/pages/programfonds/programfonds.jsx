@@ -4,7 +4,12 @@ import "./programfonds.css";
 import { Button } from "@mui/material";
 import Fade from "react-reveal/Fade";
 
-function Programfonds() {
+/**
+ * User Программы фонда Page
+ * @returns {JSX.Element}
+ * @constructor
+ */
+function ProgramFonds() {
   return (
     <MainTemplate>
       <div className="ProgramFonds">
@@ -88,4 +93,4 @@ function Programfonds() {
   );
 }
 
-export default Programfonds;
+export default ProgramFonds;

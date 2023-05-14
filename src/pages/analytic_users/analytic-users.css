@@ -51,6 +51,7 @@
   color: #000000;
 }
 .chart-info .chart-info-counts {
+  width: 100px;
   font-family: "Giga Sans", serif;
   font-weight: 700;
   font-size: 3.5rem;

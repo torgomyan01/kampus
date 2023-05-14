@@ -6,9 +6,14 @@ import { Link } from "react-router-dom";
 import { SITE_URL } from "../../utils/const";
 import Fade from "react-reveal/Fade";
 
+/**
+ *
+ * @returns {JSX.Element}
+ * @constructor
+ */
 function Login() {
   return (
-    <div className="d-flex justify-content-center align-items-center Parentlogin">
+    <div className="d-flex justify-content-center align-items-center parent-login">
       <div className="image">
         <img src={kompuslogo} alt="" />
       </div>

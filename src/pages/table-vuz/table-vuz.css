@@ -12,4 +12,25 @@
   white-space: nowrap;
 }
 
+.status-block {
+  border-radius: 4px !important;
+  padding: 0.5625rem 0.625rem !important;
+  height: 1.5625rem !important;
+  font-weight: 400;
+  font-size: 0.75rem !important;
+  line-height: 1.125rem;
+  text-align: center;
+  letter-spacing: 0.4px;
+}
+
+.table-text {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.25rem;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.015625rem;
+  color: #00072B;
+}
+
 /*# sourceMappingURL=table-vuz.css.map */

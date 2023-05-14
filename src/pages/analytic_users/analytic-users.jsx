@@ -27,9 +27,25 @@ ChartJS.register(
   Filler
 );
 
+/**
+ *
+ * @type {{duration: Requireable<number>}}
+ */
 Fade.propTypes = { duration: PropTypes.number };
 
+/**
+ * This page for analytics users
+ * @returns {JSX.Element}
+ * @constructor
+ */
 function AnalyticUsers() {
+  const [countAnalytic, setCountAnalytic] = useState(90);
+  const [textAnalytic, setTextAnalytic] = useState("Июл");
+
+  /**
+   * For Chart diagrams
+   * @returns {{datasets: [{pointLabelFontSize: number, borderDash: *[], pointBackgroundColor: string, backgroundColor: (function(*): CanvasGradient), borderColor: string, pointHoverRadius: number, data: number[], borderDashOffset: number, borderCapStyle: string, pointHoverBorderWidth: number, pointBorderWidth: number, label: string, fill: string, borderJoinStyle: string, spanGaps: boolean, pointBorderColor: string, pointHoverBorderColor: string, pointHoverBackgroundColor: string, lineTension: number, pointRadius: number}], labels: string[]}}
+   */
   const data = () => {
     return {
       labels: ["Янв", "Фев", "Мар", "Апр", "Май", "Июн", "Июл"],
@@ -65,14 +81,20 @@ function AnalyticUsers() {
       ],
     };
   };
-  const [countAnalytic, setCountAnalytic] = useState(90);
-  const [textAnalytic, setTextAnalytic] = useState("Июл");
 
+  /**
+   * Change information for hover diagram day
+   * @param context
+   */
   function changeInfoAnalytic(context) {
     setCountAnalytic(context.formattedValue);
     setTextAnalytic(context.label);
   }
 
+  /**
+   * Options for chart diagram
+   * @type {{plugins: {legend: {display: boolean}, filler: {propagate: boolean}, tooltip: {callbacks: {label: changeInfoAnalytic}}}, responsive: boolean, scales: {x: {border: {dash: number[]}}, y: {display: boolean}}, elements: {line: {tension: number}}, interaction: {intersect: boolean}, maintainAspectRatio: boolean}}
+   */
   const options = {
     maintainAspectRatio: false,
     responsive: true,

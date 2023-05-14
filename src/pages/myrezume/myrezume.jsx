@@ -5,6 +5,11 @@ import MainTemplate from "../../features/main-template/main-template";
 import { Link } from "react-router-dom";
 import { Button } from "@mui/material";
 
+/**
+ * My Resume page
+ * @returns {JSX.Element}
+ * @constructor
+ */
 function MyResume() {
   return (
     <MainTemplate>
@@ -41,15 +46,15 @@ function MyResume() {
               <h4>Статистика за неделю</h4>
               <div className="MyResumeBox">
                 <span>0 показов</span>
-                <div className="gray"></div>
+                <div className="gray" />
                 <span>0 просмотров</span>
-                <div className="gray"></div>
+                <div className="gray" />
                 <span>0 приглашений</span>
               </div>
             </div>
-            <div className="RezumeParentBtn">
+            <div className="ResumeParentBtn">
               <Link>
-                <Button variant="contained" className="btn-red RezumeBtn">
+                <Button variant="contained" className="btn-red ResumeBtn">
                   Редактировать
                 </Button>
               </Link>

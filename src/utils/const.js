@@ -1,3 +1,7 @@
+/**
+ * ALL SITE URLS
+ * @type {{NOTFOUND: string, DASHBOARD: string, PROGRAM_FONDS: string, ANALYTIC_USERS: string, RATING_USERS: string, LIST_UNIVERSITIES: string, HOME: string, MY_RESUME: string, MY_WORKS: string}}
+ */
 export const SITE_URL = {
   HOME: "/",
   DASHBOARD: "/dashboard",

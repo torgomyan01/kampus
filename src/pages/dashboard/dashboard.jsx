@@ -16,8 +16,17 @@ import { RandomKey } from "../../utils/helpers";
 import { SITE_URL } from "../../utils/const";
 import Fade from "react-reveal/Fade";
 
+/**
+ *
+ * @type {*[]}
+ */
 const companyLogos = [urfLogo, fitService, easi, haumen, ucsb, alfabank, drive];
 
+/**
+ *
+ * @returns {JSX.Element}
+ * @constructor
+ */
 function Dashboard() {
   return (
     <MainTemplate>
@@ -33,12 +42,7 @@ function Dashboard() {
               </p>
 
               <div className="mt-5">
-                <img
-                  src={diagram}
-                  alt="diagram"
-                  className="def-image"
-                  height={226}
-                />
+                <img src={diagram} alt="diagram" className="def-image" />
               </div>
               <div className="mt-5 d-flex justify-content-end">
                 <Button variant="contained" className="btn-red">
