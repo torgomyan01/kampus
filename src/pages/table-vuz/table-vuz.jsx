@@ -79,7 +79,7 @@ function TableVuz() {
   return (
     <MainTemplate>
       <Fade>
-        <div className="def-content">
+        <div className="def-content mb-5">
           <h3 className="content-title mb-5">Список ВУЗов</h3>
           <hr />
 

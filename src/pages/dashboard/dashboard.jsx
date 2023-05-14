@@ -79,7 +79,7 @@ function Dashboard() {
         <div className="col-12 col-md-6 ps-md-4 mt-5 mt-md-0">
           {/*Программы фонда*/}
           <Fade duration={1000}>
-            <div className="def-content">
+            <div className="def-content ">
               <h3 className="content-title">Программы фонда</h3>
               <div className="mt-5 d-flex justify-content-end">
                 <Link to={SITE_URL.PROGRAM_FONDS}>
@@ -94,7 +94,7 @@ function Dashboard() {
 
           {/*Анализ посещения*/}
           <Fade duration={1300}>
-            <div className="def-content mt-5">
+            <div className="def-content mt-5 ">
               <h3 className="content-title mb-5">Анализ посещения</h3>
 
               <div className="row align-items-center mt-5">

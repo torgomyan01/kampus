@@ -126,6 +126,7 @@ function AnalyticUsers() {
         },
       },
     },
+
     interaction: {
       intersect: true,
     },

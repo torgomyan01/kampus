@@ -1,3 +1,56 @@
+.TitleName {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: #00072B;
+}
 
+.Title2 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #00072B;
+}
+
+.nav-dropdown i {
+  color: #B0BAC9;
+}
+
+.def-checkbox {
+  color: #DADADA !important;
+}
+
+b {
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: #00072B;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+}
+.head input {
+  border: none;
+  color: #C9CFDA;
+}
+.head ::placeholder {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #C9CFDA;
+}
+
+.head2 {
+  display: flex;
+  flex-direction: column;
+}
+.head2 span {
+  text-align: start;
+  margin-left: 37px;
+}
 
 /*# sourceMappingURL=ratingusers.css.map */
