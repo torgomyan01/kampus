@@ -152,7 +152,6 @@ function AnalyticUsers() {
               </div>
             </div>
           </Fade>
-
           <Fade duration={1000}>
             <div className="def-content content2 mt-4">
               <h3 className="content-title">Просмотры страниц</h3>
@@ -170,7 +169,7 @@ function AnalyticUsers() {
                 <span className="chart-info-title">Сеансы</span>
               </div>
               <div className="chart-info d-flex justify-content-between align-items-start">
-                <div className="w-100">
+                <div className="w-100" style={{ maxWidth: 450 }}>
                   <Line
                     options={options}
                     data={data()}
@@ -178,7 +177,7 @@ function AnalyticUsers() {
                     height={300}
                   />
                 </div>
-                <div className="chart-info-counts">
+                <div className="chart-info-counts d-none d-lg-block">
                   <p className="mb-0">{countAnalytic}</p>
                   <p className="fs-3">{textAnalytic}</p>
                 </div>

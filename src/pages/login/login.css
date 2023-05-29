@@ -1,4 +1,4 @@
-.parent-login {
+.Parentlogin {
   min-height: 100vh;
   background: white;
 }
@@ -36,6 +36,7 @@
   border-radius: 0.625rem;
   width: 100%;
   border: 0.1875rem solid rgba(0, 0, 0, 0.3);
+  text-align: center;
 }
 .Login .LoginInput input::placeholder {
   text-align: center;

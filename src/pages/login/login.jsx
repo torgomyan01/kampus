@@ -13,7 +13,7 @@ import Fade from "react-reveal/Fade";
  */
 function Login() {
   return (
-    <div className="d-flex justify-content-center align-items-center parent-login">
+    <div className="d-flex justify-content-center align-items-center parent-login vh-100">
       <div className="image">
         <img src={kompuslogo} alt="" />
       </div>
@@ -27,7 +27,7 @@ function Login() {
             </a>
           </p>
           <div className="LoginInput">
-            <input type="text" placeholder="Кодовое слово" />
+            <input type="password" placeholder="Кодовое слово" />
           </div>
           <div className="d-flex justify-content-center align-items-center">
             <Link to={SITE_URL.DASHBOARD}>

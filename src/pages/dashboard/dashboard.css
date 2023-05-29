@@ -42,6 +42,7 @@
   transform: scale(1);
   margin-bottom: 0.9375rem;
   margin-right: 0.9375rem;
+  overflow: hidden;
 }
 .company-item:last-child {
   margin-right: 0;

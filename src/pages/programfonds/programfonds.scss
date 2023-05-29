@@ -9,10 +9,18 @@
   .rowBox{
     padding-top: 3.125rem;
     padding-left: 3.125rem;
+    padding-right: 3.125rem;
     max-width: 34.0625rem !important;
-    min-height: 15.3125rem !important;
     margin-bottom: 2.5rem !important;
-    margin-right: 1.5625rem !important;
+    @media (min-width: 576px){
+      margin-right: 1.5625rem !important;
+    }
+
+    @media (max-width: 768px){
+      padding-top: 2.125rem;
+      padding-left: 2.125rem;
+      padding-right: 2.125rem;
+    }
 
     .ContentTitle{
       font-weight: 600;
@@ -34,7 +42,8 @@
       display: flex;
       justify-content: end;
       margin-top: 3.5rem ;
-      margin-right: 3.125rem ;
+      //margin-right: 3.125rem ;
+
       .ProgramBtn{
         text-transform: capitalize !important;
       }
